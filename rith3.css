@@ -1,0 +1,132 @@
+body
+{
+   background-image: url("../pics/123.png");
+   background-repeat: repeat-x;
+   background-size: 400px;
+   background-attachment: fixed;
+   background-position: center top;
+}
+.class1
+{
+	background-color: green;
+	color: red;
+	font-size: 30px;
+}
+h1
+{
+	color: rgb(255, 58, 89);
+	background-color: pink;
+}
+.class
+{
+	border-style: dashed dotted double groove;
+
+	 /*padding-top: 40px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 10px; */
+
+	padding: 40px 30px 20px 10px;
+
+	/*margin-top: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	margin-left: 100px;*/
+
+	margin: 100px;
+
+	border-top-width: 10px;
+
+	/*outline-style: groove;
+	outline-color: red;
+	outline-width: 10px;
+	outline-offset: 10px;*/
+
+	outline: solid red 3px;
+	outline-offset: 3px;
+	text-align: center;
+}
+
+.la
+{
+   text-align: left;
+}
+.ra
+{
+   text-align: right;
+}
+.ca
+{
+   text-align: center;
+}
+
+p
+{
+	color: rgba(255, 0, 0, 0.3);
+	background-color: orange;
+}
+
+/*p.demo
+{
+	font-size: 10px;
+	color: rgb(255, 69, 80);
+	font-family: calibri;
+}
+
+p.memo
+{
+	font-size: 15px;
+	font-family: Time News Roman;
+	color: purple;
+}
+
+div.memo
+{
+	background-color: green;
+}*/
+
+body > div > p
+{
+	font-size: 10px;
+	color: red;
+}
+
+ /*p.demo + p
+{
+	background-color: red;
+}*/
+ /*p.demo ~ p
+ {
+ 	background-color: green;
+ }*/
+
+/*p[class]
+{
+	background-color: grey;
+}*/
+
+/*p[class="demo"]
+{
+	color: red;
+	background-color: black;
+}*/
+
+/*p[class^="d"]
+{
+	background-color: purple;
+}*/
+
+/*p[class$="d"]
+{
+	background-color: black;
+}*/
+
+/*p[class*="d"]
+{
+	background-color: rgba(255,0,0,0.3);
+}*/
+
+div p:nth-child(even)
+{
+	background-color: grey;
+}
